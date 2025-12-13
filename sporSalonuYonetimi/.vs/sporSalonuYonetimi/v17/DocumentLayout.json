@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -22,8 +38,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T20:50:15.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T20:49:07.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAIwD4BAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T20:45:26.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T20:44:04.834Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +100,14 @@
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T14:51:09.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\appsettings.json",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\appsettings.json",
@@ -47,12 +115,11 @@
               "RelativeToolTip": "sporSalonuYonetimi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-10T14:50:06.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T14:50:06.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Program.cs",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Program.cs",
@@ -60,8 +127,7 @@
               "RelativeToolTip": "sporSalonuYonetimi\\Program.cs",
               "ViewState": "AgIAAHUAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T14:47:49.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T14:47:49.189Z"
             }
           ]
         }

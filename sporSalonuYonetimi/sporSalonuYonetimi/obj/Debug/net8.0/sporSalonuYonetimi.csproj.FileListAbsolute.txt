@@ -31,3 +31,4 @@ C:\Users\ahmetcan\source\repos\sporSalonuYonetimi\sporSalonuYonetimi\obj\Debug\n
 C:\Users\ahmetcan\source\repos\sporSalonuYonetimi\sporSalonuYonetimi\obj\Debug\net8.0\sporSalonuYonetimi.pdb
 C:\Users\ahmetcan\source\repos\sporSalonuYonetimi\sporSalonuYonetimi\obj\Debug\net8.0\sporSalonuYonetimi.genruntimeconfig.cache
 C:\Users\ahmetcan\source\repos\sporSalonuYonetimi\sporSalonuYonetimi\obj\Debug\net8.0\ref\sporSalonuYonetimi.dll
+C:\Users\ahmetcan\source\repos\sporSalonuYonetimi\sporSalonuYonetimi\obj\Debug\net8.0\sporSalonuYonetimi.csproj.AssemblyReference.cache
