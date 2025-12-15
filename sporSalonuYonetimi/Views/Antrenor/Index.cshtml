@@ -1,0 +1,113 @@
+﻿@using SporSalonuYonetimi.Models
+@model IEnumerable<Antrenor>
+@{
+    ViewData["Title"] = "Antrenörler";
+}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <h2><i class="bi bi-people-fill me-2"></i>Antrenörlerimiz</h2>
+            <p class="text-muted">Profesyonel antrenörlerimizle tanışın</p>
+        </div>
+        <div class="col-md-4 text-end">
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-lg me-2"></i>Yeni Antrenör Ekle
+                </a>
+            }
+        </div>
+    </div>
+
+    <!-- Arama ve Filtreleme -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <form asp-action="Index" method="get" class="row g-3">
+                <div class="col-md-8">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="bi bi-search"></i></span>
+                        <input type="text" name="searchString" value="@ViewData["CurrentFilter"]"
+                               class="form-control" placeholder="Ad, soyad veya uzmanlık alanı ara...">
+                        <button type="submit" class="btn btn-primary">Ara</button>
+                        <a asp-action="Index" class="btn btn-secondary">Temizle</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="bi bi-sort-down me-2"></i>Sırala
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" asp-action="Index" asp-route-sortOrder="">İsme Göre (A-Z)</a></li>
+                            <li><a class="dropdown-item" asp-action="Index" asp-route-sortOrder="name_desc">İsme Göre (Z-A)</a></li>
+                            <li><a class="dropdown-item" asp-action="Index" asp-route-sortOrder="uzmanlik">Uzmanlığa Göre</a></li>
+                            <li><a class="dropdown-item" asp-action="Index" asp-route-sortOrder="deneyim_desc">Deneyime Göre</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Antrenör Listesi -->
+    <div class="row">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center mb-3">
+                                @if (!string.IsNullOrEmpty(item.ProfilFotoUrl))
+                                {
+                                    <img src="@item.ProfilFotoUrl" alt="@item.AdSoyad"
+                                         class="rounded-circle" style="width: 100px; height: 100px; object-fit: cover;">
+                                }
+                                else
+                                {
+                                    <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center"
+                                         style="width: 100px; height: 100px; font-size: 2.5rem;">
+                                        @item.Ad.Substring(0, 1)@item.Soyad.Substring(0, 1)
+                                    </div>
+                                }
+                            </div>
+                            <h5 class="card-title text-center">@item.AdSoyad</h5>
+                            <p class="text-center text-muted mb-2">
+                                <i class="bi bi-award-fill me-1"></i>@item.UzmanlikAlani
+                            </p>
+                            <p class="text-center text-muted mb-3">
+                                <i class="bi bi-calendar-check me-1"></i>@item.DeneyimYili yıl deneyim
+                            </p>
+                            <div class="d-grid gap-2">
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">
+                                    <i class="bi bi-eye me-2"></i>Detaylar
+                                </a>
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <div class="btn-group">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">
+                                            <i class="bi bi-pencil"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">
+                                            <i class="bi bi-trash"></i>
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <div class="alert alert-info">
+                    <i class="bi bi-info-circle me-2"></i>Henüz kayıtlı antrenör bulunmamaktadır.
+                </div>
+            </div>
+        }
+    </div>
+</div>

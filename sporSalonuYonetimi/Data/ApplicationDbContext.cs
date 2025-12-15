@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using SporSalonuYonetimİ.Models;
 using SporSalonuYonetimi.Models;
 using System.Collections.Generic;
 using System.Reflection.Emit;

@@ -1,0 +1,133 @@
+﻿@using SporSalonuYonetimi.Models
+@model Uye
+@{
+    ViewData["Title"] = "Üye Düzenle";
+}
+
+<div class="container mt-4 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-warning text-dark">
+                    <h4 class="mb-0"><i class="bi bi-pencil-square me-2"></i>Üye Bilgilerini Düzenle</h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Edit" method="post">
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="UserId" />
+                        <input type="hidden" asp-for="UyelikBaslangic" />
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Ad" class="form-label"></label>
+                                <input asp-for="Ad" class="form-control" />
+                                <span asp-validation-for="Ad" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Soyad" class="form-label"></label>
+                                <input asp-for="Soyad" class="form-control" />
+                                <span asp-validation-for="Soyad" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Email" class="form-label"></label>
+                                <input asp-for="Email" class="form-control" readonly />
+                                <small class="text-muted">Email değiştirilemez</small>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Telefon" class="form-label"></label>
+                                <input asp-for="Telefon" class="form-control" />
+                                <span asp-validation-for="Telefon" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="DogumTarihi" class="form-label"></label>
+                                <input asp-for="DogumTarihi" class="form-control" type="date" />
+                                <span asp-validation-for="DogumTarihi" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Cinsiyet" class="form-label"></label>
+                                <select asp-for="Cinsiyet" class="form-select">
+                                    <option value="Erkek">Erkek</option>
+                                    <option value="Kadın">Kadın</option>
+                                    <option value="Diğer">Diğer</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="Boy" class="form-label"></label>
+                                <div class="input-group">
+                                    <input asp-for="Boy" class="form-control" type="number" />
+                                    <span class="input-group-text">cm</span>
+                                </div>
+                                <span asp-validation-for="Boy" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="Kilo" class="form-label"></label>
+                                <div class="input-group">
+                                    <input asp-for="Kilo" class="form-control" type="number" />
+                                    <span class="input-group-text">kg</span>
+                                </div>
+                                <span asp-validation-for="Kilo" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="VucutTipi" class="form-label"></label>
+                                <select asp-for="VucutTipi" class="form-select">
+                                    <option value="">Seçiniz</option>
+                                    <option value="Ektomorf">Ektomorf</option>
+                                    <option value="Mezomorf">Mezomorf</option>
+                                    <option value="Endomorf">Endomorf</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="SaglikDurumu" class="form-label"></label>
+                            <input asp-for="SaglikDurumu" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Hedefler" class="form-label"></label>
+                            <textarea asp-for="Hedefler" class="form-control" rows="3"></textarea>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="UyelikBitis" class="form-label"></label>
+                                <input asp-for="UyelikBitis" class="form-control" type="date" />
+                            </div>
+                            <div class="col-md-6 mb-3 d-flex align-items-end">
+                                <div class="form-check">
+                                    <input asp-for="Aktif" class="form-check-input" />
+                                    <label asp-for="Aktif" class="form-check-label"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left me-2"></i>Geri
+                            </a>
+                            <button type="submit" class="btn btn-warning">
+                                <i class="bi bi-check-lg me-2"></i>Güncelle
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,267 @@
+﻿@using SporSalonuYonetimi.Models
+@model Uye
+@{
+    ViewData["Title"] = "AI Fitness Asistanı";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="alert alert-info">
+                <i class="bi bi-robot me-2"></i>
+                <strong>AI Destekli Fitness Asistanı</strong> - Yapay zeka ile kişiselleştirilmiş öneriler alın!
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Egzersiz Önerisi -->
+        <div class="col-lg-6 mb-4">
+            <div class="card shadow h-100">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="bi bi-lightning-charge me-2"></i>Egzersiz Önerisi</h5>
+                </div>
+                <div class="card-body">
+                    <p class="text-muted">Size özel egzersiz programı ve öneriler</p>
+                    <div id="egzersizSonuc" class="alert alert-secondary d-none"></div>
+                    <div id="egzersizLoading" class="text-center d-none">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Yükleniyor...</span>
+                        </div>
+                        <p class="mt-2">AI analiz yapıyor...</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary w-100" onclick="getEgzersizOnerisi()">
+                        <i class="bi bi-stars me-2"></i>Öneri Al
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Beslenme Tavsiyesi -->
+        <div class="col-lg-6 mb-4">
+            <div class="card shadow h-100">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0"><i class="bi bi-egg me-2"></i>Beslenme Tavsiyesi</h5>
+                </div>
+                <div class="card-body">
+                    <p class="text-muted">Kişiselleştirilmiş beslenme planı</p>
+                    <div id="beslenmeSonuc" class="alert alert-secondary d-none"></div>
+                    <div id="beslenmeLoading" class="text-center d-none">
+                        <div class="spinner-border text-success" role="status">
+                            <span class="visually-hidden">Yükleniyor...</span>
+                        </div>
+                        <p class="mt-2">AI analiz yapıyor...</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success w-100" onclick="getBeslenmeTavsiyesi()">
+                        <i class="bi bi-stars me-2"></i>Tavsiye Al
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sağlık Analizi -->
+        <div class="col-lg-6 mb-4">
+            <div class="card shadow h-100">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0"><i class="bi bi-heart-pulse me-2"></i>Sağlık Analizi</h5>
+                </div>
+                <div class="card-body">
+                    <p class="text-muted">Genel sağlık durumu değerlendirmesi</p>
+                    <div id="saglikSonuc" class="alert alert-secondary d-none"></div>
+                    <div id="saglikLoading" class="text-center d-none">
+                        <div class="spinner-border text-info" role="status">
+                            <span class="visually-hidden">Yükleniyor...</span>
+                        </div>
+                        <p class="mt-2">AI analiz yapıyor...</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-info w-100" onclick="getSaglikAnalizi()">
+                        <i class="bi bi-stars me-2"></i>Analiz Yap
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Antrenman Planı -->
+        <div class="col-lg-6 mb-4">
+            <div class="card shadow h-100">
+                <div class="card-header bg-warning text-dark">
+                    <h5 class="mb-0"><i class="bi bi-calendar-week me-2"></i>Antrenman Planı</h5>
+                </div>
+                <div class="card-body">
+                    <p class="text-muted">Haftalık antrenman programı oluştur</p>
+
+                    <div class="mb-3">
+                        <label class="form-label">Hedef</label>
+                        <select id="hedefSelect" class="form-select">
+                            <option value="Kilo verme">Kilo Verme</option>
+                            <option value="Kas yapma">Kas Yapma</option>
+                            <option value="Kondisyon">Kondisyon</option>
+                            <option value="Genel fitness" selected>Genel Fitness</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Haftalık Gün Sayısı</label>
+                        <select id="gunSayisiSelect" class="form-select">
+                            <option value="3" selected>3 Gün</option>
+                            <option value="4">4 Gün</option>
+                            <option value="5">5 Gün</option>
+                            <option value="6">6 Gün</option>
+                        </select>
+                    </div>
+
+                    <div id="planSonuc" class="alert alert-secondary d-none mt-3" style="max-height: 400px; overflow-y: auto;"></div>
+                    <div id="planLoading" class="text-center d-none">
+                        <div class="spinner-border text-warning" role="status">
+                            <span class="visually-hidden">Yükleniyor...</span>
+                        </div>
+                        <p class="mt-2">AI plan hazırlıyor...</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-warning w-100" onclick="getAntrenmanPlani()">
+                        <i class="bi bi-stars me-2"></i>Plan Oluştur
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tümünü Al Butonu -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow">
+                <div class="card-body text-center">
+                    <h5><i class="bi bi-magic me-2"></i>Tüm AI Analizlerini Al</h5>
+                    <p class="text-muted mb-3">Egzersiz, beslenme ve sağlık analizlerini tek seferde alın</p>
+                    <button class="btn btn-lg btn-gradient" onclick="getTumAnalizler()">
+                        <i class="bi bi-robot me-2"></i>Tüm Analizleri Başlat
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const uyeId = @Model.Id;
+
+        async function getEgzersizOnerisi() {
+            showLoading('egzersiz');
+            try {
+                const response = await fetch(`/api/AI/EgzersizOnerisi/${uyeId}`);
+                const data = await response.json();
+                showResult('egzersiz', data.content);
+            } catch (error) {
+                showError('egzersiz', 'Bir hata oluştu. Lütfen tekrar deneyin.');
+            }
+        }
+
+        async function getBeslenmeTavsiyesi() {
+            showLoading('beslenme');
+            try {
+                const response = await fetch(`/api/AI/BeslenmeTavsiyesi/${uyeId}`);
+                const data = await response.json();
+                showResult('beslenme', data.content);
+            } catch (error) {
+                showError('beslenme', 'Bir hata oluştu. Lütfen tekrar deneyin.');
+            }
+        }
+
+        async function getSaglikAnalizi() {
+            showLoading('saglik');
+            try {
+                const response = await fetch(`/api/AI/SaglikAnalizi/${uyeId}`);
+                const data = await response.json();
+                showResult('saglik', data.content);
+            } catch (error) {
+                showError('saglik', 'Bir hata oluştu. Lütfen tekrar deneyin.');
+            }
+        }
+
+        async function getAntrenmanPlani() {
+            showLoading('plan');
+            const hedef = document.getElementById('hedefSelect').value;
+            const gunSayisi = parseInt(document.getElementById('gunSayisiSelect').value);
+
+            try {
+                const response = await fetch('/api/AI/AntrenmanPlani', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        uyeId: uyeId,
+                        hedef: hedef,
+                        gunSayisi: gunSayisi
+                    })
+                });
+                const data = await response.json();
+                showResult('plan', data.content);
+            } catch (error) {
+                showError('plan', 'Bir hata oluştu. Lütfen tekrar deneyin.');
+            }
+        }
+
+        async function getTumAnalizler() {
+            showLoading('egzersiz');
+            showLoading('beslenme');
+            showLoading('saglik');
+
+            try {
+                const response = await fetch(`/api/AI/TumAnalizler/${uyeId}`);
+                const data = await response.json();
+
+                showResult('egzersiz', data.egzersizOnerisi);
+                showResult('beslenme', data.beslenmeTavsiyesi);
+                showResult('saglik', data.saglikAnalizi);
+            } catch (error) {
+                showError('egzersiz', 'Bir hata oluştu.');
+                showError('beslenme', 'Bir hata oluştu.');
+                showError('saglik', 'Bir hata oluştu.');
+            }
+        }
+
+        function showLoading(type) {
+            document.getElementById(type + 'Loading').classList.remove('d-none');
+            document.getElementById(type + 'Sonuc').classList.add('d-none');
+        }
+
+        function showResult(type, content) {
+            document.getElementById(type + 'Loading').classList.add('d-none');
+            const resultDiv = document.getElementById(type + 'Sonuc');
+            resultDiv.innerHTML = marked.parse(content);
+            resultDiv.classList.remove('d-none');
+            resultDiv.classList.remove('alert-danger');
+            resultDiv.classList.add('alert-success');
+        }
+
+        function showError(type, message) {
+            document.getElementById(type + 'Loading').classList.add('d-none');
+            const resultDiv = document.getElementById(type + 'Sonuc');
+            resultDiv.textContent = message;
+            resultDiv.classList.remove('d-none');
+            resultDiv.classList.add('alert-danger');
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        .btn-gradient {
+            background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+        }
+
+            .btn-gradient:hover {
+                background: linear-gradient(45deg, #764ba2 0%, #667eea 100%);
+                color: white;
+            }
+    </style>
+}
