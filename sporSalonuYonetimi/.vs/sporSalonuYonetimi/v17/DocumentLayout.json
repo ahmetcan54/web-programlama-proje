@@ -1,0 +1,714 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\randevu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\randevu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\randevu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\randevu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\randevu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\randevu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\antrenor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\antrenor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\viewmodels\\randevuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\viewmodels\\randevuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\viewmodels\\antrenormusaitlikviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\viewmodels\\antrenormusaitlikviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\hizmet\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\hizmet\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\hizmet\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\hizmet\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\hizmet\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\hizmet\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\hizmet\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\hizmet\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\hizmet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\hizmet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\antrenor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\antrenor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\antrenor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\antrenor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\antrenor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\antrenor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\uye\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\uye\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\uye\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\uye\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\uye\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\uye\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\uye\\aiasistan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\uye\\aiasistan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\controllers\\hizmetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\controllers\\hizmetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\controllers\\antrenorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\controllers\\antrenorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\antrenor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\antrenor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\controllers\\uyecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\controllers\\uyecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\attributes\\mustbetrueattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\attributes\\mustbetrueattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\viewmodels\\yapayzekaoneriviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\viewmodels\\yapayzekaoneriviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\sporsalonu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\sporsalonu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\musaitlik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\musaitlik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\sertifika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\sertifika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\hizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\hizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\uye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\uye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Create.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Randevu\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Create.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Randevu\\Create.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAQwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T17:48:34.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:47:45.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AntrenorMusaitlikViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvwQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:51:13.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA8wAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:51:48.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Program.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Program.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Program.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:47:49.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:51:09.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RandevuController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\RandevuController.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\RandevuController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\RandevuController.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Controllers\\RandevuController.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAwwOkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:45:31.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Index.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Randevu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Index.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Randevu\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T17:47:40.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T17:48:06.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:52:22.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:53:20.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Create.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Hizmet\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Create.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Hizmet\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:45:40.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RandevuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\RandevuViewModel.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\RandevuViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\RandevuViewModel.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\RandevuViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:53:46.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Delete.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Hizmet\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Delete.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Hizmet\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:45:14.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Details.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Hizmet\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Details.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Hizmet\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:44:47.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Edit.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Hizmet\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Edit.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Hizmet\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:44:11.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Index.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Hizmet\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Index.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Hizmet\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:43:43.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Delete.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Antrenor\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Delete.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Antrenor\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:40:52.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Details.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Antrenor\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Details.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Antrenor\\Details.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:40:15.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Edit.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Antrenor\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Edit.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Antrenor\\Edit.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:39:39.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AIAsistan.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\AIAsistan.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Uye\\AIAsistan.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\AIAsistan.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Uye\\AIAsistan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:34:53.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\Details.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Uye\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\Details.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Uye\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:34:15.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\Edit.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Uye\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\Edit.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Uye\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:33:41.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\Index.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Uye\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\Index.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Uye\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:33:15.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HizmetController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\HizmetController.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\HizmetController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\HizmetController.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Controllers\\HizmetController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:31:02.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AntrenorController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\AntrenorController.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\AntrenorController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\AntrenorController.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Controllers\\AntrenorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:29:58.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Antrenor.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Antrenor.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\Antrenor.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Antrenor.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\Antrenor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:45:22.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UyeController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\UyeController.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\UyeController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\UyeController.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Controllers\\UyeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:26:25.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:52:49.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:54:19.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MustBeTrueAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Attributes\\MustBeTrueAttribute.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Attributes\\MustBeTrueAttribute.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Attributes\\MustBeTrueAttribute.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Attributes\\MustBeTrueAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T18:01:14.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "YapayZekaOneriViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\YapayZekaOneriViewModel.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\YapayZekaOneriViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\YapayZekaOneriViewModel.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\YapayZekaOneriViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:55:35.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SporSalonu.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\SporSalonu.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\SporSalonu.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\SporSalonu.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\SporSalonu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:49:57.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Musaitlik.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Musaitlik.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\Musaitlik.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Musaitlik.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\Musaitlik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:49:13.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Sertifika.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Sertifika.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\Sertifika.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Sertifika.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\Sertifika.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:47:24.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Randevu.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Randevu.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\Randevu.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Randevu.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\Randevu.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAywAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:46:43.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Hizmet.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Hizmet.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\Hizmet.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Hizmet.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\Hizmet.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:46:07.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Uye.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Uye.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\Uye.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Uye.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\Uye.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:44:29.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T20:50:15.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T20:49:07.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAIwD4BAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T20:45:26.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T20:44:04.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\appsettings.json",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\appsettings.json",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\appsettings.json",
+              "RelativeToolTip": "sporSalonuYonetimi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-10T14:50:06.036Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

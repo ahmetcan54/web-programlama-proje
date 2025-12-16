@@ -1,0 +1,123 @@
+﻿@using SporSalonuYonetimi.Models.ViewModels
+@model RandevuViewModel
+@{
+    ViewData["Title"] = "Randevu Al";
+}
+
+<div class="container mt-4 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0"><i class="bi bi-calendar-plus me-2"></i>Yeni Randevu Al</h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Create" method="post" id="randevuForm">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="AntrenorId" class="form-label"></label>
+                            <select asp-for="AntrenorId" class="form-select" id="antrenorSelect">
+                                <option value="">-- Antrenör Seçiniz --</option>
+                                @if (Model.AntrenorListesi != null)
+                                {
+                                    @foreach (var antrenor in Model.AntrenorListesi)
+                                    {
+                                        <option value="@antrenor.Id">@antrenor.AdSoyad - @antrenor.UzmanlikAlani</option>
+                                    }
+                                }
+                            </select>
+                            <span asp-validation-for="AntrenorId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="HizmetId" class="form-label"></label>
+                            <select asp-for="HizmetId" class="form-select" id="hizmetSelect">
+                                <option value="">-- Hizmet Seçiniz --</option>
+                                @if (Model.HizmetListesi != null)
+                                {
+                                    @foreach (var hizmet in Model.HizmetListesi)
+                                    {
+                                        <option value="@hizmet.Id" data-sure="@hizmet.Sure" data-ucret="@hizmet.Ucret">
+                                            @hizmet.Ad (@hizmet.Sure dk - @hizmet.Ucret ₺)
+                                        </option>
+                                    }
+                                }
+                            </select>
+                            <span asp-validation-for="HizmetId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="RandevuTarihi" class="form-label"></label>
+                            <input asp-for="RandevuTarihi" class="form-control" type="date" min="@DateTime.Today.ToString("yyyy-MM-dd")" />
+                            <span asp-validation-for="RandevuTarihi" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="BaslangicSaati" class="form-label"></label>
+                            <select asp-for="BaslangicSaati" class="form-select" id="saatSelect">
+                                <option value="">-- Saat Seçiniz --</option>
+                                @for (int saat = 9; saat < 18; saat++)
+                                {
+                                    <option value="@(new TimeSpan(saat, 0, 0))">@saat:00</option>
+                                    <option value="@(new TimeSpan(saat, 30, 0))">@saat:30</option>
+                                }
+                            </select>
+                            <span asp-validation-for="BaslangicSaati" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="UyeNotu" class="form-label"></label>
+                            <textarea asp-for="UyeNotu" class="form-control" rows="3"
+                                      placeholder="Varsa özel isteklerinizi buraya yazabilirsiniz..."></textarea>
+                            <span asp-validation-for="UyeNotu" class="text-danger"></span>
+                        </div>
+
+                        <div id="ozet" class="alert alert-info" style="display:none;">
+                            <h6>Randevu Özeti:</h6>
+                            <p class="mb-0" id="ozetIcerik"></p>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left me-2"></i>Geri
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bi bi-check-lg me-2"></i>Randevu Al
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function() {
+            function updateOzet() {
+                var antrenorText = $('#antrenorSelect option:selected').text();
+                var hizmetText = $('#hizmetSelect option:selected').text();
+                var tarih = $('#RandevuTarihi').val();
+                var saat = $('#saatSelect option:selected').text();
+
+                if (antrenorText && hizmetText && tarih && saat) {
+                    var ozetText = '<strong>Antrenör:</strong> ' + antrenorText + '<br>' +
+                                   '<strong>Hizmet:</strong> ' + hizmetText + '<br>' +
+                                   '<strong>Tarih:</strong> ' + new Date(tarih).toLocaleDateString('tr-TR') + '<br>' +
+                                   '<strong>Saat:</strong> ' + saat;
+                    $('#ozetIcerik').html(ozetText);
+                    $('#ozet').show();
+                } else {
+                    $('#ozet').hide();
+                }
+            }
+
+            $('#antrenorSelect, #hizmetSelect, #RandevuTarihi, #saatSelect').on('change', updateOzet);
+        });
+    </script>
+}
