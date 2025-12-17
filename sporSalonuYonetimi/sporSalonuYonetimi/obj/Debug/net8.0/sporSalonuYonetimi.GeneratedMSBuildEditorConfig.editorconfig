@@ -28,6 +28,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ahmetcan/source/repos/sporSalonuYonetimi/sporSalonuYonetimi/Views/Admin/Antrenorlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQW50cmVub3JsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmetcan/source/repos/sporSalonuYonetimi/sporSalonuYonetimi/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmetcan/source/repos/sporSalonuYonetimi/sporSalonuYonetimi/Views/Admin/Hizmetler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSGl6bWV0bGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmetcan/source/repos/sporSalonuYonetimi/sporSalonuYonetimi/Views/Admin/Istatistikler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSXN0YXRpc3Rpa2xlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmetcan/source/repos/sporSalonuYonetimi/sporSalonuYonetimi/Views/Admin/Randevular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmFuZGV2dWxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmetcan/source/repos/sporSalonuYonetimi/sporSalonuYonetimi/Views/Admin/Uyeler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXllbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ahmetcan/source/repos/sporSalonuYonetimi/sporSalonuYonetimi/Views/Antrenor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

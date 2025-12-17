@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\randevu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\views\\randevu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\views\\antrenor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -111,10 +115,6 @@
       "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\controllers\\uyecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetimi\\sporsalonuyonetimi\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{626B75DD-6AFE-4669-A0CB-74F8A9B09ED5}|sporSalonuYonetimi\\sporSalonuYonetimi.csproj|solutionrelative:sporsalonuyonetimi\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -182,37 +182,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Create.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Randevu\\Create.cshtml",
               "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Create.cshtml",
               "RelativeToolTip": "sporSalonuYonetimi\\Views\\Randevu\\Create.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAQwHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-16T17:48:34.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
-              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
-              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
-              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAIsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T17:48:06.264Z",
+              "WhenOpened": "2025-12-15T06:47:45.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AntrenorMusaitlikViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvwQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:51:13.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA8wAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:51:48.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Program.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Program.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Program.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:47:49.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:51:09.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RandevuController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\RandevuController.cs",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\RandevuController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\RandevuController.cs",
+              "RelativeToolTip": "sporSalonuYonetimi\\Controllers\\RandevuController.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAwwOkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:45:31.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Index.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Randevu\\Index.cshtml",
@@ -226,55 +288,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RandevuController.cs",
-              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\RandevuController.cs",
-              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\RandevuController.cs",
-              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\RandevuController.cs",
-              "RelativeToolTip": "sporSalonuYonetimi\\Controllers\\RandevuController.cs",
-              "ViewState": "AgIAANYAAAAAAAAAAAAwwOkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:45:31.481Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
+              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
+              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Randevu\\Details.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T17:48:06.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
-              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
-              "RelativeToolTip": "sporSalonuYonetimi\\Views\\Antrenor\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-15T06:47:45.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AntrenorMusaitlikViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
-              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
-              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
-              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAADwvwQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T17:51:13.405Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "DashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
-              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
-              "RelativeToolTip": "sporSalonuYonetimi\\Models\\ViewModels\\DashboardViewModel.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA8wAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T17:51:48.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "HomeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\HomeViewModel.cs",
@@ -286,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProfileViewModel.cs",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\ProfileViewModel.cs",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\ProfileViewModel.cs",
@@ -298,20 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Program.cs",
-              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Program.cs",
-              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Program.cs",
-              "RelativeToolTip": "sporSalonuYonetimi\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T14:47:49.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Create.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Hizmet\\Create.cshtml",
@@ -323,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RandevuViewModel.cs",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\ViewModels\\RandevuViewModel.cs",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\ViewModels\\RandevuViewModel.cs",
@@ -335,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Delete.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Hizmet\\Delete.cshtml",
@@ -347,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Details.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Hizmet\\Details.cshtml",
@@ -359,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Edit.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Hizmet\\Edit.cshtml",
@@ -371,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Hizmet\\Index.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Hizmet\\Index.cshtml",
@@ -383,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Delete.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Antrenor\\Delete.cshtml",
@@ -395,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Details.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Antrenor\\Details.cshtml",
@@ -407,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Antrenor\\Edit.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Antrenor\\Edit.cshtml",
@@ -419,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "AIAsistan.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\AIAsistan.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Uye\\AIAsistan.cshtml",
@@ -431,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\Details.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Uye\\Details.cshtml",
@@ -443,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\Edit.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Uye\\Edit.cshtml",
@@ -455,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Views\\Uye\\Index.cshtml",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Views\\Uye\\Index.cshtml",
@@ -467,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "HizmetController.cs",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\HizmetController.cs",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\HizmetController.cs",
@@ -479,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AntrenorController.cs",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\AntrenorController.cs",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\AntrenorController.cs",
@@ -491,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Antrenor.cs",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Models\\Antrenor.cs",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Models\\Antrenor.cs",
@@ -503,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "UyeController.cs",
               "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Controllers\\UyeController.cs",
               "RelativeDocumentMoniker": "sporSalonuYonetimi\\Controllers\\UyeController.cs",
@@ -524,18 +537,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T17:52:49.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\sporSalonuYonetimi\\sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "sporSalonuYonetimi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T14:51:09.048Z"
             },
             {
               "$type": "Document",
