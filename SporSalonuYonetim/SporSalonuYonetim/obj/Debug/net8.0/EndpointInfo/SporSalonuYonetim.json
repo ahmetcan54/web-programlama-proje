@@ -1,0 +1,1924 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "FitLife Spor Salonu API",
+    "description": "Spor salonu yönetim sistemi RESTful API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/AI/EgzersizOnerisi/{uyeId}": {
+      "get": {
+        "tags": [
+          "AI"
+        ],
+        "parameters": [
+          {
+            "name": "uyeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/AI/BeslenmeTavsiyesi/{uyeId}": {
+      "get": {
+        "tags": [
+          "AI"
+        ],
+        "parameters": [
+          {
+            "name": "uyeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/AI/AntrenmanPlani": {
+      "post": {
+        "tags": [
+          "AI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AntrenmanPlaniRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AntrenmanPlaniRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AntrenmanPlaniRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/AI/SaglikAnalizi/{uyeId}": {
+      "get": {
+        "tags": [
+          "AI"
+        ],
+        "parameters": [
+          {
+            "name": "uyeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/AI/TumAnalizler/{uyeId}": {
+      "get": {
+        "tags": [
+          "AI"
+        ],
+        "parameters": [
+          {
+            "name": "uyeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboAIResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboAIResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboAIResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Antrenorler": {
+      "get": {
+        "tags": [
+          "Antrenorler"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Antrenorler"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Antrenor"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Antrenor"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Antrenor"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Antrenor"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Antrenor"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Antrenor"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Antrenorler/{id}": {
+      "get": {
+        "tags": [
+          "Antrenorler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Antrenorler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Antrenor"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Antrenor"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Antrenor"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Antrenorler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Antrenorler/{id}/Randevular": {
+      "get": {
+        "tags": [
+          "Antrenorler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Hizmetler": {
+      "get": {
+        "tags": [
+          "Hizmetler"
+        ],
+        "parameters": [
+          {
+            "name": "kategori",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Hizmetler"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hizmet"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hizmet"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hizmet"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Hizmet"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Hizmet"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Hizmet"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Hizmetler/{id}": {
+      "get": {
+        "tags": [
+          "Hizmetler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Hizmetler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hizmet"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hizmet"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hizmet"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Hizmetler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Hizmetler/Kategoriler": {
+      "get": {
+        "tags": [
+          "Hizmetler"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Randevular": {
+      "get": {
+        "tags": [
+          "Randevular"
+        ],
+        "parameters": [
+          {
+            "name": "durum",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/RandevuDurumu"
+            }
+          },
+          {
+            "name": "baslangicTarihi",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "bitisTarihi",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Randevular"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RandevuCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RandevuCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RandevuCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Randevular/{id}": {
+      "get": {
+        "tags": [
+          "Randevular"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Randevular/{id}/Onayla": {
+      "put": {
+        "tags": [
+          "Randevular"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Randevular/{id}/Iptal": {
+      "put": {
+        "tags": [
+          "Randevular"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Randevular/MusaitSaatler": {
+      "get": {
+        "tags": [
+          "Randevular"
+        ],
+        "parameters": [
+          {
+            "name": "antrenorId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "tarih",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Uyeler": {
+      "get": {
+        "tags": [
+          "Uyeler"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Uyeler/{id}": {
+      "get": {
+        "tags": [
+          "Uyeler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Uyeler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Uye"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Uye"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Uye"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Uyeler/{id}/Randevular": {
+      "get": {
+        "tags": [
+          "Uyeler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Uyeler/{id}/Istatistik": {
+      "get": {
+        "tags": [
+          "Uyeler"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AIResponseDto": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "content": {
+            "type": "string",
+            "nullable": true
+          },
+          "error": {
+            "type": "string",
+            "nullable": true
+          },
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "metadata": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AntrenmanPlaniRequestDto": {
+        "type": "object",
+        "properties": {
+          "uyeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hedef": {
+            "type": "string",
+            "nullable": true
+          },
+          "gunSayisi": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Antrenor": {
+        "required": [
+          "ad",
+          "email",
+          "soyad",
+          "sporSalonuId",
+          "telefon",
+          "uzmanlikAlani"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ad": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "soyad": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "adSoyad": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "email"
+          },
+          "telefon": {
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string",
+            "format": "tel"
+          },
+          "uzmanlikAlani": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string"
+          },
+          "deneyimYili": {
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer",
+            "format": "int32"
+          },
+          "biyografi": {
+            "maxLength": 1000,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "profilFotoUrl": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "aktif": {
+            "type": "boolean"
+          },
+          "iseBaslamaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "sporSalonuId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sporSalonu": {
+            "$ref": "#/components/schemas/SporSalonu"
+          },
+          "musaitlikler": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Musaitlik"
+            },
+            "nullable": true
+          },
+          "randevular": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Randevu"
+            },
+            "nullable": true
+          },
+          "hizmetler": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Hizmet"
+            },
+            "nullable": true
+          },
+          "sertifikalar": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Sertifika"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationUser": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "normalizedUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "normalizedEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailConfirmed": {
+            "type": "boolean"
+          },
+          "passwordHash": {
+            "type": "string",
+            "nullable": true
+          },
+          "securityStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "concurrencyStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumberConfirmed": {
+            "type": "boolean"
+          },
+          "twoFactorEnabled": {
+            "type": "boolean"
+          },
+          "lockoutEnd": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lockoutEnabled": {
+            "type": "boolean"
+          },
+          "accessFailedCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ad": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "soyad": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "kayitTarihi": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "sonGirisTarihi": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "uye": {
+            "$ref": "#/components/schemas/Uye"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ComboAIResponseDto": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "egzersizOnerisi": {
+            "type": "string",
+            "nullable": true
+          },
+          "beslenmeTavsiyesi": {
+            "type": "string",
+            "nullable": true
+          },
+          "saglikAnalizi": {
+            "type": "string",
+            "nullable": true
+          },
+          "error": {
+            "type": "string",
+            "nullable": true
+          },
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DayOfWeek": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Hizmet": {
+        "required": [
+          "aciklama",
+          "ad",
+          "sporSalonuId",
+          "sure",
+          "ucret"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ad": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "aciklama": {
+            "maxLength": 1000,
+            "minLength": 0,
+            "type": "string"
+          },
+          "sure": {
+            "maximum": 300,
+            "minimum": 15,
+            "type": "integer",
+            "format": "int32"
+          },
+          "ucret": {
+            "maximum": 10000,
+            "minimum": 0,
+            "type": "number",
+            "format": "double"
+          },
+          "kategori": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "aktif": {
+            "type": "boolean"
+          },
+          "olusturmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "sporSalonuId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antrenorId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sporSalonu": {
+            "$ref": "#/components/schemas/SporSalonu"
+          },
+          "antrenor": {
+            "$ref": "#/components/schemas/Antrenor"
+          },
+          "randevular": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Randevu"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Musaitlik": {
+        "required": [
+          "antrenorId",
+          "baslangicSaati",
+          "bitisSaati",
+          "gun"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antrenorId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "gun": {
+            "$ref": "#/components/schemas/DayOfWeek"
+          },
+          "baslangicSaati": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "bitisSaati": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "aktif": {
+            "type": "boolean"
+          },
+          "olusturmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "antrenor": {
+            "$ref": "#/components/schemas/Antrenor"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
+      "Randevu": {
+        "required": [
+          "antrenorId",
+          "baslangicSaati",
+          "bitisSaati",
+          "durum",
+          "hizmetId",
+          "randevuTarihi",
+          "uyeId"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "uyeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antrenorId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hizmetId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "randevuTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "baslangicSaati": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "bitisSaati": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "tamRandevuBaslangic": {
+            "type": "string",
+            "format": "date-time",
+            "readOnly": true
+          },
+          "tamRandevuBitis": {
+            "type": "string",
+            "format": "date-time",
+            "readOnly": true
+          },
+          "durum": {
+            "$ref": "#/components/schemas/RandevuDurumu"
+          },
+          "uyeNotu": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "antrenorNotu": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "iptalNedeni": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "olusturmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "onaylamaTarihi": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "iptalTarihi": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "uye": {
+            "$ref": "#/components/schemas/Uye"
+          },
+          "antrenor": {
+            "$ref": "#/components/schemas/Antrenor"
+          },
+          "hizmet": {
+            "$ref": "#/components/schemas/Hizmet"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RandevuCreateDto": {
+        "type": "object",
+        "properties": {
+          "uyeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antrenorId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hizmetId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "randevuTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "baslangicSaati": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "bitisSaati": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "uyeNotu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RandevuDurumu": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Sertifika": {
+        "required": [
+          "ad",
+          "antrenorId"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ad": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string"
+          },
+          "kurum": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "alisTarihi": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "sertifikaUrl": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "aciklama": {
+            "maxLength": 1000,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "aktif": {
+            "type": "boolean"
+          },
+          "antrenorId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antrenor": {
+            "$ref": "#/components/schemas/Antrenor"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SporSalonu": {
+        "required": [
+          "ad",
+          "adres",
+          "telefon"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ad": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "adres": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string"
+          },
+          "telefon": {
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string",
+            "format": "tel"
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "email",
+            "nullable": true
+          },
+          "aciklama": {
+            "maxLength": 1000,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "aktif": {
+            "type": "boolean"
+          },
+          "olusturmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "antrenorler": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Antrenor"
+            },
+            "nullable": true
+          },
+          "hizmetler": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Hizmet"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TimeSpan": {
+        "type": "object",
+        "properties": {
+          "ticks": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "days": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "hours": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "milliseconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "microseconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "nanoseconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "minutes": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "seconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "totalDays": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalHours": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalMilliseconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalMicroseconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalNanoseconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalMinutes": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalSeconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Uye": {
+        "required": [
+          "ad",
+          "cinsiyet",
+          "dogumTarihi",
+          "email",
+          "soyad",
+          "telefon"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ad": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "soyad": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "adSoyad": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "email"
+          },
+          "telefon": {
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string",
+            "format": "tel"
+          },
+          "dogumTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "cinsiyet": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "boy": {
+            "maximum": 250,
+            "minimum": 100,
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "kilo": {
+            "maximum": 300,
+            "minimum": 30,
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "vucutKitleIndeksi": {
+            "type": "number",
+            "format": "double",
+            "nullable": true,
+            "readOnly": true
+          },
+          "vucutTipi": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "saglikDurumu": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "hedefler": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "uyelikBaslangic": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "uyelikBitis": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "aktif": {
+            "type": "boolean"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "user": {
+            "$ref": "#/components/schemas/ApplicationUser"
+          },
+          "randevular": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Randevu"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

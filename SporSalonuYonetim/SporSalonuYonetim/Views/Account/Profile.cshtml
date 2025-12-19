@@ -1,0 +1,265 @@
+@model Uye
+@{
+    ViewData["Title"] = "Profilim";
+}
+
+<div class="container mt-4">
+    @if (TempData["SuccessMessage"] != null)
+    {
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    }
+    @if (TempData["InfoMessage"] != null)
+    {
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        @TempData["InfoMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    }
+
+    <div class="row">
+        <div class="col-lg-4 mb-4">
+            <div class="card shadow">
+                <div class="card-body text-center p-4">
+                    <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center mb-3"
+                         style="width: 120px; height: 120px; font-size: 3rem;">
+                        @Model.Ad.Substring(0, 1)@Model.Soyad.Substring(0, 1)
+                    </div>
+                    <h3 class="mb-1">@Model.AdSoyad</h3>
+                    <p class="text-muted mb-3">Üye</p>
+
+                    @if (Model.Aktif)
+                    {
+                    <span class="badge bg-success mb-3">Aktif Üyelik</span>
+                    }
+                    else
+                    {
+                    <span class="badge bg-secondary mb-3">Pasif Üyelik</span>
+                    }
+
+                    <hr>
+
+                    <div class="text-start">
+                        <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>@Model.Email</p>
+                        <p class="mb-2"><i class="bi bi-telephone me-2 text-primary"></i>@(Model.Telefon ?? "Belirtilmemiþ")</p>
+                        <p class="mb-2"><i class="bi bi-calendar me-2 text-primary"></i>@Model.DogumTarihi.ToString("dd.MM.yyyy")</p>
+                        <p class="mb-0"><i class="bi bi-gender-ambiguous me-2 text-primary"></i>@(Model.Cinsiyet ?? "Belirtilmemiþ")</p>
+                    </div>
+
+                    <hr>
+
+                    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#editModal">
+                        <i class="bi bi-pencil me-2"></i>Profili Düzenle
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="card shadow mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="bi bi-person-badge me-2"></i>Fiziksel Bilgiler</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h6 class="text-muted">Boy</h6>
+                            <h4>@(Model.Boy.HasValue ? Model.Boy + " cm" : "-")</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <h6 class="text-muted">Kilo</h6>
+                            <h4>@(Model.Kilo.HasValue ? Model.Kilo + " kg" : "-")</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <h6 class="text-muted">VKÝ</h6>
+                            <h4>
+                                @if (Model.VucutKitleIndeksi.HasValue)
+                                {
+                                    var vki = Model.VucutKitleIndeksi.Value;
+                                    var vkiClass = vki < 18.5 ? "info" : vki < 25 ? "success" : vki < 30 ? "warning" : "danger";
+                                <span class="badge bg-@vkiClass fs-6">@vki.ToString("0.0")</span>
+                                }
+                                else
+                                {
+                                <span>-</span>
+                                }
+                            </h4>
+                        </div>
+                        <div class="col-md-3">
+                            <h6 class="text-muted">Vücut Tipi</h6>
+                            <h4>@(Model.VucutTipi ?? "-")</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <h6 class="text-muted">Saðlýk Durumu</h6>
+                        <p>@(Model.SaglikDurumu ?? "Belirtilmemiþ")</p>
+                        <h6 class="text-muted">Hedefler</h6>
+                        <p>@(Model.Hedefler ?? "Belirtilmemiþ")</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow mb-4">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0"><i class="bi bi-calendar-check me-2"></i>Üyelik Bilgileri</h5>
+                </div>
+                <div class="card-body">
+                    <dl class="row mb-0">
+                        <dt class="col-sm-4">Üyelik Baþlangýç:</dt>
+                        <dd class="col-sm-8">@Model.UyelikBaslangic.ToString("dd.MM.yyyy")</dd>
+
+                        <dt class="col-sm-4">Üyelik Bitiþ:</dt>
+                        <dd class="col-sm-8">@(Model.UyelikBitis?.ToString("dd.MM.yyyy") ?? "Süresiz")</dd>
+
+                        <dt class="col-sm-4">Üyelik Süresi:</dt>
+                        <dd class="col-sm-8">@((DateTime.UtcNow - Model.UyelikBaslangic).Days) gün</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0"><i class="bi bi-calendar-event me-2"></i>Randevu Özeti</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.Randevular != null && Model.Randevular.Any())
+                    {
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <h3 class="text-primary">@Model.Randevular.Count</h3>
+                            <p class="text-muted mb-0">Toplam</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="text-warning">@Model.Randevular.Count(r => r.Durum == RandevuDurumu.Beklemede)</h3>
+                            <p class="text-muted mb-0">Beklemede</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="text-success">@Model.Randevular.Count(r => r.Durum == RandevuDurumu.Onaylandi)</h3>
+                            <p class="text-muted mb-0">Onaylý</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="text-info">@Model.Randevular.Count(r => r.Durum == RandevuDurumu.Tamamlandi)</h3>
+                            <p class="text-muted mb-0">Tamamlandý</p>
+                        </div>
+                    </div>
+                    }
+                    else
+                    {
+                    <p class="text-center text-muted">Henüz randevunuz bulunmamaktadýr.</p>
+                    <div class="text-center">
+                        <a asp-controller="Randevu" asp-action="Create" class="btn btn-primary">
+                            <i class="bi bi-calendar-plus me-2"></i>Ýlk Randevunu Oluþtur
+                        </a>
+                    </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Profil Düzenleme Modal -->
+<div class="modal fade" id="editModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Profili Düzenle</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <form asp-action="UpdateProfile" method="post">
+                <div class="modal-body">
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="UserId" />
+                    <input type="hidden" asp-for="Email" />
+                    <input type="hidden" asp-for="UyelikBaslangic" />
+                    <input type="hidden" asp-for="Aktif" />
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Ad" class="form-label"></label>
+                            <input asp-for="Ad" class="form-control" />
+                            <span asp-validation-for="Ad" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Soyad" class="form-label"></label>
+                            <input asp-for="Soyad" class="form-control" />
+                            <span asp-validation-for="Soyad" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Telefon" class="form-label"></label>
+                            <input asp-for="Telefon" class="form-control" />
+                            <span asp-validation-for="Telefon" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="DogumTarihi" class="form-label"></label>
+                            <input asp-for="DogumTarihi" class="form-control" type="date" />
+                            <span asp-validation-for="DogumTarihi" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="Boy" class="form-label"></label>
+                            <div class="input-group">
+                                <input asp-for="Boy" class="form-control" type="number" />
+                                <span class="input-group-text">cm</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="Kilo" class="form-label"></label>
+                            <div class="input-group">
+                                <input asp-for="Kilo" class="form-control" type="number" step="0.1" />
+                                <span class="input-group-text">kg</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="Cinsiyet" class="form-label"></label>
+                            <select asp-for="Cinsiyet" class="form-select">
+                                <option value="">Seçiniz</option>
+                                <option value="Erkek">Erkek</option>
+                                <option value="Kadýn">Kadýn</option>
+                                <option value="Diðer">Diðer</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="VucutTipi" class="form-label"></label>
+                        <select asp-for="VucutTipi" class="form-select">
+                            <option value="">Seçiniz</option>
+                            <option value="Ektomorf">Ektomorf (Zayýf)</option>
+                            <option value="Mezomorf">Mezomorf (Atletik)</option>
+                            <option value="Endomorf">Endomorf (Kaslý)</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="SaglikDurumu" class="form-label"></label>
+                        <textarea asp-for="SaglikDurumu" class="form-control" rows="2" placeholder="Varsa kronik hastalýklar, alerjiler vs."></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Hedefler" class="form-label"></label>
+                        <textarea asp-for="Hedefler" class="form-control" rows="2" placeholder="Kilo vermek, kas yapmak, saðlýklý yaþam vs."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ýptal</button>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-check-lg me-2"></i>Kaydet
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

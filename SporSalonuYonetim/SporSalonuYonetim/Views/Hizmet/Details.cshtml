@@ -1,0 +1,96 @@
+﻿@model Hizmet
+@{
+    ViewData["Title"] = "Hizmet Detayları";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0"><i class="bi bi-info-circle me-2"></i>@Model.Ad</h4>
+        </div>
+        <div class="card-body p-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <dl class="row">
+                        <dt class="col-sm-4">Hizmet Adı:</dt>
+                        <dd class="col-sm-8">@Model.Ad</dd>
+
+                        <dt class="col-sm-4">Kategori:</dt>
+                        <dd class="col-sm-8">
+                            @if (!string.IsNullOrEmpty(Model.Kategori))
+                            {
+                            <span class="badge bg-info">@Model.Kategori</span>
+                            }
+                            else
+                            {
+                            <span class="text-muted">-</span>
+                            }
+                        </dd>
+
+                        <dt class="col-sm-4">Süre:</dt>
+                        <dd class="col-sm-8"><span class="badge bg-primary">@Model.Sure dakika</span></dd>
+
+                        <dt class="col-sm-4">Ücret:</dt>
+                        <dd class="col-sm-8"><strong class="text-success">@Model.Ucret ₺</strong></dd>
+                    </dl>
+                </div>
+                <div class="col-md-6">
+                    <dl class="row">
+                        <dt class="col-sm-4">Spor Salonu:</dt>
+                        <dd class="col-sm-8">@Model.SporSalonu?.Ad</dd>
+
+                        <dt class="col-sm-4">Antrenör:</dt>
+                        <dd class="col-sm-8">@(Model.Antrenor?.AdSoyad ?? "Belirtilmemiş")</dd>
+
+                        <dt class="col-sm-4">Oluşturma:</dt>
+                        <dd class="col-sm-8">@Model.OlusturmaTarihi.ToString("dd.MM.yyyy")</dd>
+
+                        <dt class="col-sm-4">Durum:</dt>
+                        <dd class="col-sm-8">
+                            @if (Model.Aktif)
+                            {
+                            <span class="badge bg-success">Aktif</span>
+                            }
+                            else
+                            {
+                            <span class="badge bg-secondary">Pasif</span>
+                            }
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="mb-3">
+                <h5>Açıklama:</h5>
+                <p>@Model.Aciklama</p>
+            </div>
+
+            <hr>
+
+            <div class="d-flex justify-content-between">
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left me-2"></i>Listeye Dön
+                </a>
+                @if (User.IsInRole("Admin"))
+                {
+                <div>
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                        <i class="bi bi-pencil me-2"></i>Düzenle
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">
+                        <i class="bi bi-trash me-2"></i>Sil
+                    </a>
+                </div>
+                }
+                else
+                {
+                <a asp-controller="Randevu" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-calendar-plus me-2"></i>Randevu Al
+                </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>

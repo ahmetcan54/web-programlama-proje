@@ -1,0 +1,67 @@
+﻿@model Hizmet
+@{
+    ViewData["Title"] = "Hizmet Sil";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0"><i class="bi bi-exclamation-triangle me-2"></i>Hizmet Sil</h4>
+                </div>
+                <div class="card-body p-4">
+                    <div class="alert alert-warning">
+                        <i class="bi bi-info-circle me-2"></i>
+                        <strong>Uyarı:</strong> Bu işlem geri alınamaz!
+                    </div>
+
+                    <h5>Aşağıdaki hizmeti silmek istediğinizden emin misiniz?</h5>
+
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <dl class="row mb-0">
+                                <dt class="col-sm-4">Hizmet:</dt>
+                                <dd class="col-sm-8">@Model.Ad</dd>
+
+                                <dt class="col-sm-4">Kategori:</dt>
+                                <dd class="col-sm-8">@(Model.Kategori ?? "-")</dd>
+
+                                <dt class="col-sm-4">Süre / Ücret:</dt>
+                                <dd class="col-sm-8">@Model.Sure dk / @Model.Ucret ₺</dd>
+
+                                <dt class="col-sm-4">Antrenör:</dt>
+                                <dd class="col-sm-8">@(Model.Antrenor?.AdSoyad ?? "Belirtilmemiş")</dd>
+
+                                <dt class="col-sm-4">Spor Salonu:</dt>
+                                <dd class="col-sm-8">@Model.SporSalonu?.Ad</dd>
+                            </dl>
+
+                            @if (Model.Randevular != null && Model.Randevular.Any())
+                            {
+                            <hr>
+                            <div class="alert alert-info mb-0">
+                                <i class="bi bi-info-circle me-2"></i>
+                                <strong>Not:</strong> Bu hizmete ait @Model.Randevular.Count randevu bulunmaktadır.
+                                Hizmet tamamen silinmeyecek, sadece devre dışı bırakılacaktır.
+                            </div>
+                            }
+                        </div>
+                    </div>
+
+                    <form asp-action="Delete" method="post" class="mt-4">
+                        <input type="hidden" asp-for="Id" />
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left me-2"></i>İptal
+                            </a>
+                            <button type="submit" class="btn btn-danger">
+                                <i class="bi bi-trash me-2"></i>Evet, Sil
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

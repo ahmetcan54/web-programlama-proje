@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SporSalonuYonetim",
+    "\\SporSalonuYonetim\\Models",
+    "\\SporSalonuYonetim\\Views",
+    "\\SporSalonuYonetim\\Views\\Account",
+    "\\SporSalonuYonetim\\Views\\Admin",
+    "\\SporSalonuYonetim\\Views\\Antrenor",
+    "\\SporSalonuYonetim\\Views\\Hizmet",
+    "\\SporSalonuYonetim\\Views\\Home",
+    "\\SporSalonuYonetim\\Views\\Shared"
+  ],
+  "SelectedNode": "\\SporSalonuYonetim\\Views\\Account\\Profile.cshtml",
+  "PreviewInSolutionExplorer": false
+}

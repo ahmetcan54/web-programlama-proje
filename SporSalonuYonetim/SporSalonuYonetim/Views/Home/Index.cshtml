@@ -1,0 +1,695 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "FitLife Spor Salonu";
+}
+
+<!-- Hero Section -->
+<div class="bg-primary text-white py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h1 class="display-3 fw-bold mb-3">
+                    Hayalinizdeki Vücuda Ulaşın
+                </h1>
+                <p class="lead mb-4">
+                    Modern ekipmanlar, profesyonel antrenörler ve kişiselleştirilmiş programlarla
+                    fitness hedeflerinize ulaşmanız için yanınızdayız!
+                </p>
+                @if (User.Identity?.IsAuthenticated != true)
+                {
+                    <a asp-controller="Account" asp-action="Register" class="btn btn-light btn-lg me-2 mb-2">
+                        <i class="bi bi-person-plus me-2"></i>Ücretsiz Deneme
+                    </a>
+                    <a asp-controller="Account" asp-action="Login" class="btn btn-outline-light btn-lg mb-2">
+                        <i class="bi bi-box-arrow-in-right me-2"></i>Giriş Yap
+                    </a>
+                }
+                else
+                {
+                    <a asp-controller="Randevu" asp-action="Create" class="btn btn-light btn-lg">
+                        <i class="bi bi-calendar-plus me-2"></i>Randevu Al
+                    </a>
+                }
+            </div>
+            <div class="col-lg-6">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop"
+                     alt="FitLife Spor Salonu" class="img-fluid rounded shadow-lg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Stats Section -->
+<div class="bg-light py-4">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3 mb-3 mb-md-0">
+                <h2 class="text-primary fw-bold mb-0">@Model.ToplamUyeSayisi+</h2>
+                <p class="text-muted mb-0">Aktif Üye</p>
+            </div>
+            <div class="col-md-3 mb-3 mb-md-0">
+                <h2 class="text-success fw-bold mb-0">@Model.AktifAntrenorSayisi</h2>
+                <p class="text-muted mb-0">Uzman Antrenör</p>
+            </div>
+            <div class="col-md-3 mb-3 mb-md-0">
+                <h2 class="text-warning fw-bold mb-0">@Model.ToplamHizmetSayisi</h2>
+                <p class="text-muted mb-0">Farklı Hizmet</p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="text-danger fw-bold mb-0">7/24</h2>
+                <p class="text-muted mb-0">Açık</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Trainers Section -->
+@if (Model.Antrenorler.Any())
+{
+    <div class="bg-light py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Uzman Antrenörlerimiz</h2>
+                <p class="lead text-muted">Deneyimli ve sertifikalı antrenörlerimizle tanışın</p>
+            </div>
+
+            <div class="row g-4">
+                @foreach (var antrenor in Model.Antrenorler)
+                {
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm hover-card">
+                            <div class="card-body text-center p-4">
+                                <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center mb-3"
+                                     style="width: 100px; height: 100px; font-size: 2.5rem;">
+                                    @antrenor.Ad.Substring(0, 1)@antrenor.Soyad.Substring(0, 1)
+                                </div>
+                                <h5 class="card-title mb-2">@antrenor.AdSoyad</h5>
+                                <p class="text-primary fw-bold mb-2">@antrenor.UzmanlikAlani</p>
+                                <p class="text-muted small mb-3">
+                                    <i class="bi bi-award me-1"></i>@antrenor.DeneyimYili yıl deneyim
+                                </p>
+                                @if (!string.IsNullOrEmpty(antrenor.Email))
+                                {
+                                    <p class="small text-muted mb-2">
+                                        <i class="bi bi-envelope me-1"></i>@antrenor.Email
+                                    </p>
+                                }
+                                @if (!string.IsNullOrEmpty(antrenor.Telefon))
+                                {
+                                    <p class="small text-muted mb-3">
+                                        <i class="bi bi-telephone me-1"></i>@antrenor.Telefon
+                                    </p>
+                                }
+                                <a asp-controller="Antrenor" asp-action="Details" asp-route-id="@antrenor.Id"
+                                   class="btn btn-sm btn-outline-primary">
+                                    Detayları Gör
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div class="text-center mt-4">
+                <a asp-controller="Antrenor" asp-action="Index" class="btn btn-primary">
+                    <i class="bi bi-people me-2"></i>Tüm Antrenörleri Görüntüle
+                </a>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- Gallery Section -->
+<div class="container my-5">
+    <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold mb-3">Salonumuzdan Görüntüler</h2>
+        <p class="lead text-muted">Modern ve ferah tesislerimizi keşfedin</p>
+    </div>
+
+    <div class="row g-4">
+        @foreach (var resim in Model.GaleriResimleri)
+        {
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm overflow-hidden hover-card">
+                    <img src="@resim.BaslikUrl" class="card-img-top" alt="@resim.Aciklama" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h6 class="card-title text-center mb-0">@resim.Aciklama</h6>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Features Section -->
+<div class="bg-light py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 bg-transparent">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="bi bi-people-fill text-primary" style="font-size: 3rem;"></i>
+                        </div>
+                        <h4 class="card-title">Profesyonel Kadro</h4>
+                        <p class="card-text text-muted">
+                            Alanında uzman, sertifikalı antrenörlerimizle birebir çalışma imkanı
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 bg-transparent">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="bi bi-calendar-check-fill text-success" style="font-size: 3rem;"></i>
+                        </div>
+                        <h4 class="card-title">Esnek Randevu</h4>
+                        <p class="card-text text-muted">
+                            Online randevu sistemi ile istediğiniz zaman, istediğiniz antrenörle çalışın
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 bg-transparent">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="bi bi-graph-up-arrow text-warning" style="font-size: 3rem;"></i>
+                        </div>
+                        <h4 class="card-title">AI Destekli Takip</h4>
+                        <p class="card-text text-muted">
+                            Yapay zeka ile ilerlemenizi takip edin, size özel öneriler alın
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hakkımızda Section -->
+<div id="hakkimizda" class="py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&h=400&fit=crop"
+                     alt="FitLife Spor Salonu" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="display-5 fw-bold mb-4">FitLife Hakkında</h2>
+                <p class="lead mb-3">
+                    2024 yılında kurulan FitLife Spor Salonu, modern fitness anlayışını Türkiye'ye getirme misyonuyla yola çıktı.
+                </p>
+                <p class="mb-3">
+                    En son teknoloji ekipmanlarımız, uzman antrenör kadromuz ve size özel hazırlanmış programlarımızla
+                    fitness hedeflerinize ulaşmanız için yanınızdayız.
+                </p>
+                <div class="row mt-4">
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success fs-3 me-3"></i>
+                            <div>
+                                <h5 class="mb-0">Profesyonel Ekip</h5>
+                                <small class="text-muted">Sertifikalı antrenörler</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success fs-3 me-3"></i>
+                            <div>
+                                <h5 class="mb-0">Modern Ekipman</h5>
+                                <small class="text-muted">En son teknoloji</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success fs-3 me-3"></i>
+                            <div>
+                                <h5 class="mb-0">Kişisel Program</h5>
+                                <small class="text-muted">Size özel planlar</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success fs-3 me-3"></i>
+                            <div>
+                                <h5 class="mb-0">AI Destekli</h5>
+                                <small class="text-muted">Akıllı fitness asistanı</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tesislerimiz Section -->
+<div class="py-5">
+    <div class="container">
+        <h2 class="text-center display-5 fw-bold mb-5">Tesislerimiz</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card border-0 shadow hover-card">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop"
+                         class="card-img-top" alt="Kardio Salonu">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-heart-pulse text-danger me-2"></i>Kardio Salonu</h5>
+                        <p class="card-text">En son teknoloji koşu bantları, eliptik bisikletler ve rowing makineleri</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow hover-card">
+                    <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400&h=300&fit=crop"
+                         class="card-img-top" alt="Ağırlık Salonu">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-activity text-primary me-2"></i>Ağırlık Salonu</h5>
+                        <p class="card-text">Profesyonel ağırlık ekipmanları ve serbest ağırlık alanı</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow hover-card">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=300&fit=crop"
+                         class="card-img-top" alt="Grup Dersleri">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-people text-success me-2"></i>Grup Dersleri</h5>
+                        <p class="card-text">Yoga, Pilates, Spinning ve daha fazlası için geniş stüdyo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fiyatlandırma Section -->
+<div id="fiyatlandirma" class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-3">Üyelik Paketleri</h2>
+            <p class="lead text-muted">Size en uygun paketi seçin ve fitness yolculuğunuza başlayın</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Temel Paket -->
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-lg hover-card h-100">
+                    <div class="card-body p-4">
+                        <div class="text-center mb-4">
+                            <div class="badge bg-secondary text-white fs-6 px-3 py-2 rounded-pill mb-3">
+                                <i class="bi bi-star"></i> Temel
+                            </div>
+                            <h3 class="card-title fw-bold mb-3">Başlangıç</h3>
+                            <div class="display-4 fw-bold text-primary mb-2">
+                                ₺499
+                                <small class="fs-6 text-muted">/ay</small>
+                            </div>
+                            <p class="text-muted">Aylık üyelik</p>
+                        </div>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                Tüm ekipmanlara erişim
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                Sınırsız salon kullanımı
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                Soyunma odası & duş
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                Online randevu sistemi
+                            </li>
+                            <li class="mb-3 text-muted">
+                                <i class="bi bi-x-circle me-2"></i>
+                                Kişisel antrenör
+                            </li>
+                            <li class="mb-3 text-muted">
+                                <i class="bi bi-x-circle me-2"></i>
+                                Grup dersleri
+                            </li>
+                            <li class="mb-3 text-muted">
+                                <i class="bi bi-x-circle me-2"></i>
+                                Beslenme programı
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <a asp-controller="Account" asp-action="Register" class="btn btn-outline-primary w-100">
+                                <i class="bi bi-cart-plus me-2"></i>Hemen Başla
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Popüler Paket -->
+            <div class="col-lg-4">
+                <div class="card border-primary border-3 shadow-lg hover-card h-100 position-relative">
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <span class="badge bg-warning text-dark px-4 py-2 fs-6">
+                            <i class="bi bi-lightning-fill me-1"></i>EN POPÜLER
+                        </span>
+                    </div>
+                    <div class="card-body p-4 mt-3">
+                        <div class="text-center mb-4">
+                            <div class="badge bg-primary text-white fs-6 px-3 py-2 rounded-pill mb-3">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> Premium
+                            </div>
+                            <h3 class="card-title fw-bold mb-3">Standart</h3>
+                            <div class="display-4 fw-bold text-primary mb-2">
+                                ₺899
+                                <small class="fs-6 text-muted">/ay</small>
+                            </div>
+                            <p class="text-muted">Aylık üyelik</p>
+                        </div>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                <strong>Temel paketteki tüm özellikler</strong>
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                Kişisel antrenör (4 seans/ay)
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                Tüm grup derslerine katılım
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                AI destekli fitness asistanı
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                Vücut analizi (aylık)
+                            </li>
+                            <li class="mb-3 text-muted">
+                                <i class="bi bi-x-circle me-2"></i>
+                                Beslenme programı
+                            </li>
+                            <li class="mb-3 text-muted">
+                                <i class="bi bi-x-circle me-2"></i>
+                                Spa & masaj
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <a asp-controller="Account" asp-action="Register" class="btn btn-primary w-100">
+                                <i class="bi bi-cart-plus me-2"></i>Hemen Başla
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VIP Paket -->
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-lg hover-card h-100" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <div class="card-body p-4 text-white">
+                        <div class="text-center mb-4">
+                            <div class="badge bg-warning text-dark fs-6 px-3 py-2 rounded-pill mb-3">
+                                <i class="bi bi-gem"></i> VIP
+                            </div>
+                            <h3 class="card-title fw-bold mb-3">Platinum</h3>
+                            <div class="display-4 fw-bold mb-2">
+                                ₺1.499
+                                <small class="fs-6">/ay</small>
+                            </div>
+                            <p class="opacity-75">Aylık üyelik</p>
+                        </div>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                <strong>Premium paketteki tüm özellikler</strong>
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                Sınırsız kişisel antrenör
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                Özel beslenme programı
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                Haftalık vücut analizi
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                Spa & masaj (4 seans/ay)
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                VIP soyunma odası
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                Öncelikli randevu
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <a asp-controller="Account" asp-action="Register" class="btn btn-light w-100">
+                                <i class="bi bi-cart-plus me-2"></i>Hemen Başla
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ek Bilgiler -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="card border-0 bg-white shadow-sm">
+                    <div class="card-body p-4">
+                        <h4 class="mb-4 text-center"><i class="bi bi-info-circle me-2"></i>Ek Bilgiler</h4>
+                        <div class="row">
+                            <div class="col-md-3 text-center mb-3">
+                                <i class="bi bi-calendar-check text-primary fs-1 mb-2"></i>
+                                <h6>İlk Ay İndirim</h6>
+                                <p class="text-muted small mb-0">Tüm paketlerde %20 indirim</p>
+                            </div>
+                            <div class="col-md-3 text-center mb-3">
+                                <i class="bi bi-arrow-repeat text-success fs-1 mb-2"></i>
+                                <h6>Cayma Hakkı</h6>
+                                <p class="text-muted small mb-0">14 gün içinde iade garantisi</p>
+                            </div>
+                            <div class="col-md-3 text-center mb-3">
+                                <i class="bi bi-credit-card text-warning fs-1 mb-2"></i>
+                                <h6>Esnek Ödeme</h6>
+                                <p class="text-muted small mb-0">Kredi kartı ile taksit imkanı</p>
+                            </div>
+                            <div class="col-md-3 text-center mb-3">
+                                <i class="bi bi-gift text-danger fs-1 mb-2"></i>
+                                <h6>Arkadaşını Getir</h6>
+                                <p class="text-muted small mb-0">Her arkadaş başına 1 ay bedava</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Öğrenci & Aile Paketleri -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-mortarboard-fill text-info fs-1 me-3"></i>
+                            <div>
+                                <h5 class="mb-0">Öğrenci Paketi</h5>
+                                <p class="text-muted mb-0 small">Geçerli öğrenci kimliği ile</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <p class="mb-1">Tüm paketlerde <strong class="text-info fs-4">%30 indirim</strong></p>
+                                <small class="text-muted">Öğrenci belgesi gereklidir</small>
+                            </div>
+                            <a asp-controller="Account" asp-action="Register" class="btn btn-outline-info">
+                                Başvur
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-people-fill text-success fs-1 me-3"></i>
+                            <div>
+                                <h5 class="mb-0">Aile Paketi</h5>
+                                <p class="text-muted mb-0 small">2+ kişi için özel fiyatlar</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <p class="mb-1">2. kişiden itibaren <strong class="text-success fs-4">%25 indirim</strong></p>
+                                <small class="text-muted">Aile bireyleri için geçerlidir</small>
+                            </div>
+                            <a asp-controller="Account" asp-action="Register" class="btn btn-outline-success">
+                                Başvur
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Çalışma Saatleri -->
+<div class="bg-light py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card border-0 shadow">
+                    <div class="card-body p-5">
+                        <h3 class="text-center mb-4"><i class="bi bi-clock me-2"></i>Çalışma Saatlerimiz</h3>
+                        <div class="row text-center">
+                            <div class="col-md-6">
+                                <h5 class="text-primary">Hafta İçi</h5>
+                                <p class="mb-0">Pazartesi - Cuma</p>
+                                <p class="fw-bold">06:00 - 23:00</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="text-primary">Hafta Sonu</h5>
+                                <p class="mb-0">Cumartesi - Pazar</p>
+                                <p class="fw-bold">08:00 - 21:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- İletişim Section -->
+<div id="iletisim" class="py-5">
+    <div class="container">
+        <h2 class="text-center display-5 fw-bold mb-5">İletişime Geçin</h2>
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card border-0 shadow h-100">
+                    <div class="card-body p-4">
+                        <h4 class="mb-4">Bize Ulaşın</h4>
+                        <div class="mb-4">
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
+                                <div>
+                                    <h6>Adres</h6>
+                                    <p class="text-muted mb-0">Serdivan, Sakarya Üniversitesi Kampüsü<br>Sakarya, Türkiye</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-telephone-fill text-primary fs-4 me-3"></i>
+                                <div>
+                                    <h6>Telefon</h6>
+                                    <p class="text-muted mb-0">+90 (264) 295 54 54</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <i class="bi bi-envelope-fill text-primary fs-4 me-3"></i>
+                                <div>
+                                    <h6>E-posta</h6>
+                                    <p class="text-muted mb-0">info@fitlife.com.tr</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start">
+                                <i class="bi bi-clock-fill text-primary fs-4 me-3"></i>
+                                <div>
+                                    <h6>Çalışma Saatleri</h6>
+                                    <p class="text-muted mb-0">Hafta İçi: 06:00 - 23:00<br>Hafta Sonu: 08:00 - 21:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h6 class="mb-3">Sosyal Medya</h6>
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2 mb-2">
+                                <i class="bi bi-facebook"></i> Facebook
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm me-2 mb-2">
+                                <i class="bi bi-twitter"></i> Twitter
+                            </a>
+                            <a href="#" class="btn btn-outline-danger btn-sm me-2 mb-2">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                            <a href="#" class="btn btn-outline-success btn-sm mb-2">
+                                <i class="bi bi-whatsapp"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card border-0 shadow h-100">
+                    <div class="card-body p-4">
+                        <h4 class="mb-4">Mesaj Gönderin</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Adınız Soyadınız</label>
+                                <input type="text" class="form-control" placeholder="Ad Soyad">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">E-posta</label>
+                                <input type="email" class="form-control" placeholder="email@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Telefon</label>
+                                <input type="tel" class="form-control" placeholder="+90 5xx xxx xx xx">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Mesajınız</label>
+                                <textarea class="form-control" rows="4" placeholder="Mesajınızı buraya yazın..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">
+                                <i class="bi bi-send me-2"></i>Mesaj Gönder
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CTA Section -->
+<div class="bg-primary text-white py-5">
+    <div class="container text-center">
+        <h2 class="display-5 fw-bold mb-3">Harekete Geçme Zamanı!</h2>
+        <p class="lead mb-4">İlk adımı atın ve fitness yolculuğunuza bugün başlayın</p>
+        @if (User.Identity?.IsAuthenticated != true)
+        {
+            <a asp-controller="Account" asp-action="Register" class="btn btn-light btn-lg me-2">
+                <i class="bi bi-person-plus me-2"></i>Ücretsiz Deneme Başlat
+            </a>
+        }
+        else
+        {
+            <a asp-controller="Randevu" asp-action="Create" class="btn btn-light btn-lg">
+                <i class="bi bi-calendar-plus me-2"></i>İlk Randevunu Al
+            </a>
+        }
+    </div>
+</div>
+
+<style>
+    .hover-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .hover-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+        }
+</style>

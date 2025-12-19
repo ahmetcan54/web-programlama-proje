@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Hizmet>
+    @{
+    ViewData["Title"] = "Hizmetlerimiz";
+    }
+
+    <div class="container mt-4">
+        <h2 class="mb-4"><i class="bi bi-list-check me-2"></i>Hizmetlerimiz</h2>
+
+        <div class="row">
+            @foreach (var hizmet in Model)
+        {
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@hizmet.Ad</h5>
+                        <p class="card-text">@hizmet.Aciklama</p>
+                        <p class="mb-2">
+                            <span class="badge bg-primary">@hizmet.Sure dk</span>
+                            <span class="badge bg-success">@hizmet.Ucret ₺</span>
+                            @if (!string.IsNullOrEmpty(hizmet.Kategori))
+                            {
+                            <span class="badge bg-info">@hizmet.Kategori</span>
+                            }
+                        </p>
+                        @if (hizmet.Antrenor != null)
+                        {
+                        <small class="text-muted">Antrenör: @hizmet.Antrenor.AdSoyad</small>
+                        }
+                    </div>
+                    <div class="card-footer">
+                        <a asp-controller="Randevu" asp-action="Create" class="btn btn-primary btn-sm w-100">
+                            <i class="bi bi-calendar-plus me-2"></i>Randevu Al
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+        </div>
+    </div>

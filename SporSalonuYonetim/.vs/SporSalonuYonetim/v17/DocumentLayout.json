@@ -1,0 +1,1205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\services\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\services\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\services\\claudeaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\services\\claudeaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\api\\uyelercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\api\\uyelercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\api\\randevularcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\api\\randevularcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\api\\hizmetlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\api\\hizmetlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\api\\antrenorlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\api\\antrenorlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\api\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\api\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\admin\\antrenorler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\admin\\antrenorler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\admin\\hizmetler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\admin\\hizmetler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\admin\\istatistikler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\admin\\istatistikler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\admin\\randevular.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\admin\\randevular.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\admin\\uyeler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\admin\\uyeler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\randevu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\randevu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\randevu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\randevu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\randevu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\randevu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\hizmet\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\hizmet\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\hizmet\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\hizmet\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\hizmet\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\hizmet\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\hizmet\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\hizmet\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\hizmet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\hizmet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\antrenor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\antrenor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\antrenor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\antrenor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\antrenor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\antrenor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\antrenor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\antrenor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\antrenor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\antrenor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\antrenor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\antrenor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\uye\\aiasistan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\uye\\aiasistan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\uye\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\uye\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\uye\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\uye\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\uye\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\uye\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\hizmetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\hizmetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\antrenorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\antrenorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\uyecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\uyecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\viewmodels\\randevuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\viewmodels\\randevuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\attributes\\mustbetrueattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\attributes\\mustbetrueattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\viewmodels\\yapayzekaoneriviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\viewmodels\\yapayzekaoneriviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\viewmodels\\antrenormusaitlikviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\viewmodels\\antrenormusaitlikviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\sporsalonu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\sporsalonu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\musaitlik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\musaitlik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\sertifika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\sertifika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\hizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\hizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\uye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\uye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\migrations\\20250102_addsertifikatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\migrations\\20250102_addsertifikatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\sporsalonuyonetim.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\sporsalonuyonetim.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\admin\\dashboard.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\admin\\dashboard.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\admin\\antrenorler.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\admin\\antrenorler.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\antrenor\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\antrenor\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|c:\\users\\ahmetcan\\source\\repos\\sporsalonuyonetim\\sporsalonuyonetim\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD42B04C-750B-419A-826C-DCAFB9BA6A9E}|SporSalonuYonetim\\SporSalonuYonetim.csproj|solutionrelative:sporsalonuyonetim\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AntrenorlerController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\Api\\AntrenorlerController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\Api\\AntrenorlerController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\Api\\AntrenorlerController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\Api\\AntrenorlerController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwJkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T16:28:57.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HizmetlerController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\Api\\HizmetlerController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\Api\\HizmetlerController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\Api\\HizmetlerController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\Api\\HizmetlerController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAuwKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T16:29:43.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RandevularController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\Api\\RandevularController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\Api\\RandevularController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\Api\\RandevularController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\Api\\RandevularController.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAADwv94AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T16:30:06.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UyelerController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\Api\\UyelerController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\Api\\UyelerController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\Api\\UyelerController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\Api\\UyelerController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAuwKwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T16:30:38.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClaudeAIService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Services\\ClaudeAIService.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Services\\ClaudeAIService.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Services\\ClaudeAIService.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Services\\ClaudeAIService.cs",
+              "ViewState": "AgIAABYBAAAAAAAAAAAuwEcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T16:33:52.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAIService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Services\\IAIService.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Services\\IAIService.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Services\\IAIService.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Services\\IAIService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T16:34:23.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AIController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\Api\\AIController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\Api\\AIController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\Api\\AIController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\Api\\AIController.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAAwOoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T16:28:28.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Antrenorler.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Antrenorler.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Admin\\Antrenorler.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Antrenorler.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Admin\\Antrenorler.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T20:07:37.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Randevular.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Randevular.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Admin\\Randevular.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Randevular.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Admin\\Randevular.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:13:29.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Uyeler.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Uyeler.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Admin\\Uyeler.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Uyeler.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Admin\\Uyeler.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:14:09.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAAANcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:45:02.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Data\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Data\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:54:46.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Randevu\\Create.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Randevu\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Randevu\\Create.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Randevu\\Create.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAwFQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:20:57.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAwLgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T20:07:00.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Istatistikler.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Istatistikler.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Admin\\Istatistikler.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Istatistikler.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Admin\\Istatistikler.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T13:36:40.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Hizmetler.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Hizmetler.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Admin\\Hizmetler.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Hizmetler.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Admin\\Hizmetler.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:13:03.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Randevu\\Details.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Randevu\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Randevu\\Details.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Randevu\\Details.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:29:39.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Randevu\\Index.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Randevu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Randevu\\Index.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Randevu\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T12:58:19.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RandevuController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\RandevuController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\RandevuController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\RandevuController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\RandevuController.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAuwO4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:45:38.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T11:45:31.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Hizmet\\Create.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Hizmet\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Hizmet\\Create.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Hizmet\\Create.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:28:45.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Hizmet\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Hizmet\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Hizmet\\Delete.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Hizmet\\Delete.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:28:25.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Hizmet\\Details.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Hizmet\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Hizmet\\Details.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Hizmet\\Details.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:27:45.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Hizmet\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Hizmet\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Hizmet\\Edit.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Hizmet\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:27:21.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Hizmet\\Index.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Hizmet\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Hizmet\\Index.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Hizmet\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:26:51.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Create.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Antrenor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Create.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Antrenor\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T12:37:01.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Antrenor\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Delete.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Antrenor\\Delete.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T12:36:35.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Details.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Antrenor\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Details.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Antrenor\\Details.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T12:35:55.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Antrenor\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Edit.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Antrenor\\Edit.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAowGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T12:34:49.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Antrenor.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Antrenor.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\Antrenor.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Antrenor.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\Antrenor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T17:06:09.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Index.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Antrenor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Index.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Antrenor\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:35:57.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AIAsistan.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Uye\\AIAsistan.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Uye\\AIAsistan.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Uye\\AIAsistan.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Uye\\AIAsistan.cshtml",
+              "ViewState": "AgIAANgAAAAAAAAAAAAowAoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T16:36:11.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Uye\\Details.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Uye\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Uye\\Details.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Uye\\Details.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAowIMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:30:34.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Uye\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Uye\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Uye\\Edit.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Uye\\Edit.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAowHcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:30:12.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Uye\\Index.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Uye\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Uye\\Index.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Uye\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowCwAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T12:55:58.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HizmetController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\HizmetController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\HizmetController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\HizmetController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\HizmetController.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAgwNMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:40:58.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AntrenorController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\AntrenorController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\AntrenorController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\AntrenorController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\AntrenorController.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAgwPsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:29:15.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UyeController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\UyeController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\UyeController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\UyeController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\UyeController.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAgwL4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:46:21.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T11:44:46.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MustBeTrueAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Attributes\\MustBeTrueAttribute.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Attributes\\MustBeTrueAttribute.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Attributes\\MustBeTrueAttribute.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Attributes\\MustBeTrueAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T11:40:38.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "YapayZekaOneriViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\YapayZekaOneriViewModel.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\ViewModels\\YapayZekaOneriViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\YapayZekaOneriViewModel.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\ViewModels\\YapayZekaOneriViewModel.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAxwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T11:43:58.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RandevuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\RandevuViewModel.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\ViewModels\\RandevuViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\RandevuViewModel.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\ViewModels\\RandevuViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA/wBcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T11:42:54.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T11:44:27.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T11:50:41.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T11:45:12.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AntrenorMusaitlikViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\ViewModels\\AntrenorMusaitlikViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T11:43:35.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SporSalonu.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\SporSalonu.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\SporSalonu.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\SporSalonu.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\SporSalonu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T08:58:30.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Musaitlik.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Musaitlik.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\Musaitlik.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Musaitlik.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\Musaitlik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T08:57:16.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Sertifika.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Sertifika.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\Sertifika.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Sertifika.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\Sertifika.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T17:05:19.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Randevu.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Randevu.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\Randevu.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Randevu.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\Randevu.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T08:58:26.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Hizmet.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Hizmet.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\Hizmet.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Hizmet.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\Hizmet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T08:58:38.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Uye.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Uye.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\Uye.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\Uye.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\Uye.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T08:51:57.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowG4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T11:48:41.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T11:35:21.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T12:56:07.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABoBAAAAAAAAAAAgwEoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:59:15.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T08:58:42.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\appsettings.json",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\appsettings.json",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\appsettings.json",
+              "RelativeToolTip": "SporSalonuYonetim\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-21T12:12:47.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Program.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Program.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Program.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Program.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAowKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:09:42.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SporSalonuYonetim\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL8CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-21T12:17:08.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowLYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T16:48:19.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAACIAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T11:51:39.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-27T13:01:21.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20250102_AddSertifikaTable.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Migrations\\20250102_AddSertifikaTable.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Migrations\\20250102_AddSertifikaTable.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Migrations\\20250102_AddSertifikaTable.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Migrations\\20250102_AddSertifikaTable.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA7wDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T17:09:14.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:55:32.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:54:14.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "SporSalonuYonetim.csproj",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\SporSalonuYonetim.csproj",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\SporSalonuYonetim.csproj",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\SporSalonuYonetim.csproj",
+              "RelativeToolTip": "SporSalonuYonetim\\SporSalonuYonetim.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-22T16:33:11.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SporSalonuYonetim\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T11:49:17.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:54:58.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAkwLgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T12:48:07.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Antrenorler.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Antrenorler.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Admin\\Antrenorler.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Admin\\Antrenorler.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Admin\\Antrenorler.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T13:12:01.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Index.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Antrenor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Antrenor\\Index.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Antrenor\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T12:31:31.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\appsettings.Production.json",
+              "RelativeToolTip": "SporSalonuYonetim\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-21T12:12:13.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuYonetim\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\ahmetcan\\source\\repos\\SporSalonuYonetim\\SporSalonuYonetim\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "SporSalonuYonetim\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T12:09:10.252Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
