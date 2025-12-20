@@ -147,22 +147,22 @@ Modern web teknolojileri kullanarak:
 ### Ana Sayfa
 > Modern ve kullanıcı dostu arayüz
 
-![Ana Sayfa]("C:\Users\ahmetcan\Pictures\Screenshots\Ekran görüntüsü 2025-12-20 123811.png")
+![Ana Sayfa](Screenshots/homepage.png)
 
 ### Admin Dashboard
 > Kapsamlı yönetim paneli ve istatistikler
 
-![Admin Dashboard]("C:\Users\ahmetcan\Pictures\Screenshots\Ekran görüntüsü 2025-12-20 123902.png")
+![Admin Dashboard](Screenshots/dashboard.png)
 
 ### Randevu Sistemi
 > Kolay ve hızlı randevu alma
 
-![Randevu]("C:\Users\ahmetcan\Pictures\Screenshots\Ekran görüntüsü 2025-12-20 123926.png")
+![Randevu](Screenshots/appointments.png)
 
 ### AI Fitness Asistanı
 > Yapay zeka destekli kişisel antrenör
 
-![AI Assistant]("C:\Users\ahmetcan\Pictures\Screenshots\Ekran görüntüsü 2025-12-20 131219.png")
+![AI Assistant](Screenshots/ai-assistant.png)
 
 
 ---
